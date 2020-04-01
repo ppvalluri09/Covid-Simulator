@@ -14,7 +14,7 @@ function create_population(count) {
 function setup() {
 	canvas = createCanvas(w, h);
 	canvas.parent('canvas');
-	population = create_population(100);
+	population = create_population(300);
 	start = createButton('start');
 	start.parent('buttons')
 	// var slider = create
