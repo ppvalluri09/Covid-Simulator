@@ -15,9 +15,8 @@ function setup() {
 	canvas = createCanvas(w, h);
 	canvas.parent('canvas');
 	population = create_population(300);
-	start = createButton('start');
-	start.parent('buttons')
-	// var slider = create
+// 	start = createButton('start');
+// 	start.parent('buttons')
 }
 
 function draw() {
